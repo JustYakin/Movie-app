@@ -8,4 +8,6 @@ In the project directory, you can run:
 
 <h1>npm start</h1>
 Runs the app in the development mode.
+<p>
 Open http://localhost:9000 to view it in the browser.
+</p>
