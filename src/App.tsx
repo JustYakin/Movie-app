@@ -16,7 +16,7 @@ const App = () => {
         if(!mainMovies.length){
             getMovies().then(data => dispatch(searchMovie(data.data.Search)))
         }
-        console.log(mainMovies)
+        .catch(data => dispatch(searchMovie(data.data.Error)))
     }, [dispatch, mainMovies.length]);
 
     return (
